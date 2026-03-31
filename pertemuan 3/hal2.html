@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 2</title>
+</head>
+<body>
+    <h2>From Pemesanan Kendaraan</h2>
+<article>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Formulir Pemesanan Kendaraan Rental</legend>
+                 <label for="nama">Nama Pemesan:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+            
+                    <label for="tgl_sewa">Tanggal Sewa:</label>
+                    <br>
+                    <input type="date" id="tgl_sewa" name="tgl_sewa">
+                
+                    <label for="jenis">Jenis Kendaraan:</label>
+                    <br>
+                    <select id="jenis" name="jenis">
+                        <option value="mobil">Mobil</option>
+                        <option value="motor">Motor</option>
+                    </select>
+        
+                    <label for="alamat">Alamat Pengiriman:</label>
+                    <br>
+                    <textarea id="alamat" name="alamat" rows="3"></textarea>
+                
+                    <label for="telpon">Nomor Telepon:</label>
+                    <br>
+                    <input type="tel" id="telpon" name="telpon">
+
+                    <label for="tgl_kembali">Tanggal Pengembalian:</label>
+                    <br>
+                    <input type="date" id="tgl_kembali" name="tgl_kembali">
+                
+                    <label for="model">Model Kendaraan:</label>
+                    <br>
+                    <input type="text" id="model" name="model" placeholder="Contoh: Avanza/Nmax">
+                
+                    <label for="plat">Nomor Plat Kendaraan (Opsional):</label>
+                    <br>
+                    <input type="text" id="plat" name="plat">
+                
+                    <label>Asuransi Tambahan:</label>
+                    <br>
+                    <input type="radio" id="asuransi_ya" name="asuransi" value="ya">
+                    <label for="asuransi_ya">Ya</label>
+                    <input type="radio" id="asuransi_tidak" name="asuransi" value="tidak" checked>
+                    <label for="asuransi_tidak">Tidak</label>
+                
+                    <label for="catatan">Catatan Khusus:</label>
+                    <br>
+                    <textarea id="catatan" name="catatan" rows="2"></textarea>
+                </p>
+
+                <button type="submit">Kirim Pemesanan</button>
+            </fieldset>
+        </form>
+    </article>
+
+</body>
+</html>
